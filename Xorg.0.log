@@ -1,0 +1,511 @@
+[   194.757] (WW) Failed to open protocol names file lib/xorg/protocol.txt
+[   194.758] 
+X.Org X Server 1.20.8
+X Protocol Version 11, Revision 0
+[   194.760] Build Operating System: Linux Arch Linux
+[   194.763] Current Operating System: Linux scorpio 5.6.10-arch1-1 #1 SMP PREEMPT Sat, 02 May 2020 19:11:54 +0000 x86_64
+[   194.764] Kernel command line: BOOT_IMAGE=/vmlinuz-linux root=UUID=5dbecb54-f16d-4936-ab28-fa5c5000e127 rw loglevel=3 quiet
+[   194.768] Build Date: 30 March 2020  05:05:45AM
+[   194.768]  
+[   194.769] Current version of pixman: 0.40.0
+[   194.772] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[   194.773] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[   194.781] (==) Log file: "/var/log/Xorg.0.log", Time: Mon May 11 21:28:18 2020
+[   194.839] (==) Using config file: "/etc/X11/xorg.conf"
+[   194.841] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[   194.875] (==) ServerLayout "Layout0"
+[   194.875] (**) |-->Screen "Screen0" (0)
+[   194.875] (**) |   |-->Monitor "Monitor0"
+[   194.886] (**) |   |-->Device "Device0"
+[   194.887] (**) |-->Input Device "Keyboard0"
+[   194.887] (**) |-->Input Device "Mouse0"
+[   194.887] (==) Automatically adding devices
+[   194.887] (==) Automatically enabling devices
+[   194.887] (==) Automatically adding GPU devices
+[   194.887] (==) Automatically binding GPU devices
+[   194.887] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[   194.929] (WW) `fonts.dir' not found (or not valid) in "/usr/share/fonts/misc".
+[   194.929] 	Entry deleted from font path.
+[   194.929] 	(Run 'mkfontdir' on "/usr/share/fonts/misc").
+[   194.950] (WW) The directory "/usr/share/fonts/OTF" does not exist.
+[   194.950] 	Entry deleted from font path.
+[   194.950] (WW) The directory "/usr/share/fonts/Type1" does not exist.
+[   194.950] 	Entry deleted from font path.
+[   194.966] (==) FontPath set to:
+	/usr/share/fonts/TTF,
+	/usr/share/fonts/100dpi,
+	/usr/share/fonts/75dpi
+[   194.966] (==) ModulePath set to "/usr/lib/xorg/modules"
+[   194.966] (WW) Hotplugging is on, devices using drivers 'kbd', 'mouse' or 'vmmouse' will be disabled.
+[   194.966] (WW) Disabling Keyboard0
+[   194.966] (WW) Disabling Mouse0
+[   194.966] (II) Module ABI versions:
+[   194.966] 	X.Org ANSI C Emulation: 0.4
+[   194.966] 	X.Org Video Driver: 24.1
+[   194.966] 	X.Org XInput driver : 24.1
+[   194.966] 	X.Org Server Extension : 10.0
+[   194.968] (++) using VT number 1
+
+[   194.972] (II) systemd-logind: took control of session /org/freedesktop/login1/session/_31
+[   194.973] (II) xfree86: Adding drm device (/dev/dri/card0)
+[   194.974] (II) systemd-logind: got fd for /dev/dri/card0 226:0 fd 10 paused 0
+[   194.977] (**) OutputClass "nvidia" ModulePath extended to "/usr/lib/nvidia/xorg,/usr/lib/xorg/modules,/usr/lib/xorg/modules"
+[   194.979] (--) PCI:*(1@0:0:0) 10de:1c03:3842:6161 rev 161, Mem @ 0xde000000/16777216, 0xc0000000/268435456, 0xd0000000/33554432, I/O @ 0x0000e000/128, BIOS @ 0x????????/131072
+[   194.979] (WW) Open ACPI failed (/var/run/acpid.socket) (No such file or directory)
+[   194.979] (II) LoadModule: "glx"
+[   195.013] (II) Loading /usr/lib/xorg/modules/extensions/libglx.so
+[   195.104] (II) Module glx: vendor="X.Org Foundation"
+[   195.104] 	compiled for 1.20.8, module version = 1.0.0
+[   195.104] 	ABI class: X.Org Server Extension, version 10.0
+[   195.104] (II) LoadModule: "nvidia"
+[   195.105] (II) Loading /usr/lib/xorg/modules/drivers/nvidia_drv.so
+[   195.198] (II) Module nvidia: vendor="NVIDIA Corporation"
+[   195.198] 	compiled for 1.6.99.901, module version = 1.0.0
+[   195.198] 	Module class: X.Org Video Driver
+[   195.204] (II) NVIDIA dlloader X Driver  440.82  Wed Apr  1 19:50:17 UTC 2020
+[   195.204] (II) NVIDIA Unified Driver for all Supported NVIDIA GPUs
+[   195.205] (II) systemd-logind: releasing fd for 226:0
+[   195.207] (II) Loading sub module "fb"
+[   195.207] (II) LoadModule: "fb"
+[   195.224] (II) Loading /usr/lib/xorg/modules/libfb.so
+[   195.239] (II) Module fb: vendor="X.Org Foundation"
+[   195.239] 	compiled for 1.20.8, module version = 1.0.0
+[   195.239] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[   195.239] (II) Loading sub module "wfb"
+[   195.239] (II) LoadModule: "wfb"
+[   195.240] (II) Loading /usr/lib/xorg/modules/libwfb.so
+[   195.254] (II) Module wfb: vendor="X.Org Foundation"
+[   195.254] 	compiled for 1.20.8, module version = 1.0.0
+[   195.254] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[   195.254] (II) Loading sub module "ramdac"
+[   195.254] (II) LoadModule: "ramdac"
+[   195.254] (II) Module "ramdac" already built-in
+[   195.269] (**) NVIDIA(0): Depth 24, (--) framebuffer bpp 32
+[   195.269] (==) NVIDIA(0): RGB weight 888
+[   195.269] (==) NVIDIA(0): Default visual is TrueColor
+[   195.269] (==) NVIDIA(0): Using gamma correction (1.0, 1.0, 1.0)
+[   195.270] (II) Applying OutputClass "nvidia" options to /dev/dri/card0
+[   195.270] (**) NVIDIA(0): Option "AllowEmptyInitialConfiguration"
+[   195.270] (**) NVIDIA(0): Enabling 2D acceleration
+[   195.270] (II) Loading sub module "glxserver_nvidia"
+[   195.270] (II) LoadModule: "glxserver_nvidia"
+[   195.270] (II) Loading /usr/lib/nvidia/xorg/libglxserver_nvidia.so
+[   196.078] (II) Module glxserver_nvidia: vendor="NVIDIA Corporation"
+[   196.078] 	compiled for 1.6.99.901, module version = 1.0.0
+[   196.078] 	Module class: X.Org Server Extension
+[   196.091] (II) NVIDIA GLX Module  440.82  Wed Apr  1 19:47:36 UTC 2020
+[   196.155] (II) NVIDIA: The X server supports PRIME Render Offload.
+[   196.801] (--) NVIDIA(0): Valid display device(s) on GPU-0 at PCI:1:0:0
+[   196.801] (--) NVIDIA(0):     DFP-0
+[   196.801] (--) NVIDIA(0):     DFP-1
+[   196.801] (--) NVIDIA(0):     DFP-2 (boot)
+[   196.801] (--) NVIDIA(0):     DFP-3
+[   196.801] (--) NVIDIA(0):     DFP-4
+[   196.801] (--) NVIDIA(0):     DFP-5
+[   196.801] (--) NVIDIA(0):     DFP-6
+[   196.801] (--) NVIDIA(0):     DFP-7
+[   196.801] (II) NVIDIA(0): NVIDIA GPU GeForce GTX 1060 6GB (GP106-A) at PCI:1:0:0
+[   196.801] (II) NVIDIA(0):     (GPU-0)
+[   196.801] (--) NVIDIA(0): Memory: 6291456 kBytes
+[   196.801] (--) NVIDIA(0): VideoBIOS: 86.06.63.00.60
+[   196.801] (II) NVIDIA(0): Detected PCI Express Link width: 16X
+[   196.801] (--) NVIDIA(GPU-0): DFP-0: disconnected
+[   196.801] (--) NVIDIA(GPU-0): DFP-0: Internal TMDS
+[   196.801] (--) NVIDIA(GPU-0): DFP-0: 330.0 MHz maximum pixel clock
+[   196.801] (--) NVIDIA(GPU-0): 
+[   196.802] (--) NVIDIA(GPU-0): DFP-1: disconnected
+[   196.802] (--) NVIDIA(GPU-0): DFP-1: Internal TMDS
+[   196.802] (--) NVIDIA(GPU-0): DFP-1: 165.0 MHz maximum pixel clock
+[   196.802] (--) NVIDIA(GPU-0): 
+[   196.802] (--) NVIDIA(GPU-0): Ancor Communications Inc VG248 (DFP-2): connected
+[   196.802] (--) NVIDIA(GPU-0): Ancor Communications Inc VG248 (DFP-2): Internal DisplayPort
+[   196.802] (--) NVIDIA(GPU-0): Ancor Communications Inc VG248 (DFP-2): 1440.0 MHz maximum pixel clock
+[   196.802] (--) NVIDIA(GPU-0): Ancor Communications Inc VG248 (DFP-2): supports NVIDIA 3D Vision stereo.
+[   196.802] (--) NVIDIA(GPU-0): 
+[   196.803] (--) NVIDIA(GPU-0): DFP-3: disconnected
+[   196.803] (--) NVIDIA(GPU-0): DFP-3: Internal TMDS
+[   196.803] (--) NVIDIA(GPU-0): DFP-3: 165.0 MHz maximum pixel clock
+[   196.803] (--) NVIDIA(GPU-0): 
+[   196.803] (--) NVIDIA(GPU-0): DFP-4: disconnected
+[   196.803] (--) NVIDIA(GPU-0): DFP-4: Internal DisplayPort
+[   196.803] (--) NVIDIA(GPU-0): DFP-4: 1440.0 MHz maximum pixel clock
+[   196.803] (--) NVIDIA(GPU-0): 
+[   196.803] (--) NVIDIA(GPU-0): DFP-5: disconnected
+[   196.803] (--) NVIDIA(GPU-0): DFP-5: Internal TMDS
+[   196.803] (--) NVIDIA(GPU-0): DFP-5: 165.0 MHz maximum pixel clock
+[   196.803] (--) NVIDIA(GPU-0): 
+[   196.803] (--) NVIDIA(GPU-0): DFP-6: disconnected
+[   196.803] (--) NVIDIA(GPU-0): DFP-6: Internal DisplayPort
+[   196.803] (--) NVIDIA(GPU-0): DFP-6: 1440.0 MHz maximum pixel clock
+[   196.803] (--) NVIDIA(GPU-0): 
+[   196.803] (--) NVIDIA(GPU-0): DFP-7: disconnected
+[   196.803] (--) NVIDIA(GPU-0): DFP-7: Internal TMDS
+[   196.803] (--) NVIDIA(GPU-0): DFP-7: 165.0 MHz maximum pixel clock
+[   196.803] (--) NVIDIA(GPU-0): 
+[   196.809] (==) NVIDIA(0): 
+[   196.809] (==) NVIDIA(0): No modes were requested; the default mode "nvidia-auto-select"
+[   196.809] (==) NVIDIA(0):     will be used as the requested mode.
+[   196.809] (==) NVIDIA(0): 
+[   196.809] (II) NVIDIA(0): Validated MetaModes:
+[   196.809] (II) NVIDIA(0):     "DFP-2:nvidia-auto-select"
+[   196.809] (II) NVIDIA(0): Virtual screen size determined to be 1920 x 1080
+[   196.814] (--) NVIDIA(0): DPI set to (92, 91); computed from "UseEdidDpi" X config
+[   196.814] (--) NVIDIA(0):     option
+[   196.815] (II) NVIDIA: Using 24576.00 MB of virtual memory for indirect memory
+[   196.815] (II) NVIDIA:     access.
+[   196.817] (II) NVIDIA(0): ACPI: failed to connect to the ACPI event daemon; the daemon
+[   196.817] (II) NVIDIA(0):     may not be running or the "AcpidSocketPath" X
+[   196.817] (II) NVIDIA(0):     configuration option may not be set correctly.  When the
+[   196.817] (II) NVIDIA(0):     ACPI event daemon is available, the NVIDIA X driver will
+[   196.817] (II) NVIDIA(0):     try to use it to receive ACPI event notifications.  For
+[   196.817] (II) NVIDIA(0):     details, please see the "ConnectToAcpid" and
+[   196.817] (II) NVIDIA(0):     "AcpidSocketPath" X configuration options in Appendix B: X
+[   196.817] (II) NVIDIA(0):     Config Options in the README.
+[   196.858] (II) NVIDIA(0): Setting mode "DFP-2:nvidia-auto-select"
+[   196.998] (==) NVIDIA(0): Disabling shared memory pixmaps
+[   196.998] (==) NVIDIA(0): Backing store enabled
+[   196.998] (==) NVIDIA(0): Silken mouse disabled
+[   196.998] (**) NVIDIA(0): DPMS enabled
+[   197.018] (II) Loading sub module "dri2"
+[   197.018] (II) LoadModule: "dri2"
+[   197.018] (II) Module "dri2" already built-in
+[   197.018] (II) NVIDIA(0): [DRI2] Setup complete
+[   197.018] (II) NVIDIA(0): [DRI2]   VDPAU driver: nvidia
+[   197.051] (II) Initializing extension Generic Event Extension
+[   197.051] (II) Initializing extension SHAPE
+[   197.051] (II) Initializing extension MIT-SHM
+[   197.051] (II) Initializing extension XInputExtension
+[   197.051] (II) Initializing extension XTEST
+[   197.051] (II) Initializing extension BIG-REQUESTS
+[   197.051] (II) Initializing extension SYNC
+[   197.051] (II) Initializing extension XKEYBOARD
+[   197.051] (II) Initializing extension XC-MISC
+[   197.051] (II) Initializing extension SECURITY
+[   197.051] (II) Initializing extension XFIXES
+[   197.051] (II) Initializing extension RENDER
+[   197.051] (II) Initializing extension RANDR
+[   197.051] (II) Initializing extension COMPOSITE
+[   197.051] (II) Initializing extension DAMAGE
+[   197.051] (II) Initializing extension MIT-SCREEN-SAVER
+[   197.051] (II) Initializing extension DOUBLE-BUFFER
+[   197.051] (II) Initializing extension RECORD
+[   197.051] (II) Initializing extension DPMS
+[   197.051] (II) Initializing extension Present
+[   197.051] (II) Initializing extension DRI3
+[   197.051] (II) Initializing extension X-Resource
+[   197.051] (II) Initializing extension XVideo
+[   197.051] (II) Initializing extension XVideo-MotionCompensation
+[   197.051] (II) Initializing extension GLX
+[   197.051] (II) Initializing extension GLX
+[   197.051] (II) Indirect GLX disabled.
+[   197.051] (II) GLX: Another vendor is already registered for screen 0
+[   197.051] (II) Initializing extension XFree86-VidModeExtension
+[   197.051] (II) Initializing extension XFree86-DGA
+[   197.051] (II) Initializing extension XFree86-DRI
+[   197.051] (II) Initializing extension DRI2
+[   197.051] (II) Initializing extension NV-GLX
+[   197.051] (II) Initializing extension NV-CONTROL
+[   197.051] (II) Initializing extension XINERAMA
+[   197.750] (II) config/udev: Adding input device Power Button (/dev/input/event2)
+[   197.750] (**) Power Button: Applying InputClass "libinput keyboard catchall"
+[   197.750] (II) LoadModule: "libinput"
+[   197.750] (II) Loading /usr/lib/xorg/modules/input/libinput_drv.so
+[   197.796] (II) Module libinput: vendor="X.Org Foundation"
+[   197.796] 	compiled for 1.20.7, module version = 0.29.0
+[   197.796] 	Module class: X.Org XInput Driver
+[   197.796] 	ABI class: X.Org XInput driver, version 24.1
+[   197.796] (II) Using input driver 'libinput' for 'Power Button'
+[   197.798] (II) systemd-logind: got fd for /dev/input/event2 13:66 fd 32 paused 0
+[   197.798] (**) Power Button: always reports core events
+[   197.798] (**) Option "Device" "/dev/input/event2"
+[   197.798] (**) Option "_source" "server/udev"
+[   197.826] (II) event2  - Power Button: is tagged by udev as: Keyboard
+[   197.826] (II) event2  - Power Button: device is a keyboard
+[   197.826] (II) event2  - Power Button: device removed
+[   197.826] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXPWRBN:00/input/input2/event2"
+[   197.826] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 6)
+[   197.829] (II) event2  - Power Button: is tagged by udev as: Keyboard
+[   197.829] (II) event2  - Power Button: device is a keyboard
+[   197.830] (II) config/udev: Adding input device Power Button (/dev/input/event1)
+[   197.830] (**) Power Button: Applying InputClass "libinput keyboard catchall"
+[   197.830] (II) Using input driver 'libinput' for 'Power Button'
+[   197.830] (II) systemd-logind: got fd for /dev/input/event1 13:65 fd 35 paused 0
+[   197.830] (**) Power Button: always reports core events
+[   197.830] (**) Option "Device" "/dev/input/event1"
+[   197.830] (**) Option "_source" "server/udev"
+[   197.831] (II) event1  - Power Button: is tagged by udev as: Keyboard
+[   197.831] (II) event1  - Power Button: device is a keyboard
+[   197.831] (II) event1  - Power Button: device removed
+[   197.831] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input1/event1"
+[   197.831] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 7)
+[   197.831] (II) event1  - Power Button: is tagged by udev as: Keyboard
+[   197.831] (II) event1  - Power Button: device is a keyboard
+[   197.832] (II) config/udev: Adding input device Sleep Button (/dev/input/event0)
+[   197.832] (**) Sleep Button: Applying InputClass "libinput keyboard catchall"
+[   197.832] (II) Using input driver 'libinput' for 'Sleep Button'
+[   197.832] (II) systemd-logind: got fd for /dev/input/event0 13:64 fd 36 paused 0
+[   197.832] (**) Sleep Button: always reports core events
+[   197.832] (**) Option "Device" "/dev/input/event0"
+[   197.832] (**) Option "_source" "server/udev"
+[   197.833] (II) event0  - Sleep Button: is tagged by udev as: Keyboard
+[   197.833] (II) event0  - Sleep Button: device is a keyboard
+[   197.833] (II) event0  - Sleep Button: device removed
+[   197.833] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0E:00/input/input0/event0"
+[   197.833] (II) XINPUT: Adding extended input device "Sleep Button" (type: KEYBOARD, id 8)
+[   197.833] (II) event0  - Sleep Button: is tagged by udev as: Keyboard
+[   197.833] (II) event0  - Sleep Button: device is a keyboard
+[   197.834] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=3 (/dev/input/event13)
+[   197.834] (II) No input driver specified, ignoring this device.
+[   197.834] (II) This device may have been added with another device file.
+[   197.834] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=7 (/dev/input/event14)
+[   197.834] (II) No input driver specified, ignoring this device.
+[   197.834] (II) This device may have been added with another device file.
+[   197.834] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=8 (/dev/input/event15)
+[   197.834] (II) No input driver specified, ignoring this device.
+[   197.834] (II) This device may have been added with another device file.
+[   197.834] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=9 (/dev/input/event16)
+[   197.834] (II) No input driver specified, ignoring this device.
+[   197.834] (II) This device may have been added with another device file.
+[   197.835] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=10 (/dev/input/event17)
+[   197.835] (II) No input driver specified, ignoring this device.
+[   197.835] (II) This device may have been added with another device file.
+[   197.835] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=11 (/dev/input/event18)
+[   197.835] (II) No input driver specified, ignoring this device.
+[   197.835] (II) This device may have been added with another device file.
+[   197.835] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=12 (/dev/input/event19)
+[   197.835] (II) No input driver specified, ignoring this device.
+[   197.835] (II) This device may have been added with another device file.
+[   197.835] (II) config/udev: Adding input device MOSART Semi. 2.4G Keyboard Mouse (/dev/input/event7)
+[   197.835] (**) MOSART Semi. 2.4G Keyboard Mouse: Applying InputClass "libinput keyboard catchall"
+[   197.835] (II) Using input driver 'libinput' for 'MOSART Semi. 2.4G Keyboard Mouse'
+[   197.836] (II) systemd-logind: got fd for /dev/input/event7 13:71 fd 37 paused 0
+[   197.836] (**) MOSART Semi. 2.4G Keyboard Mouse: always reports core events
+[   197.836] (**) Option "Device" "/dev/input/event7"
+[   197.836] (**) Option "_source" "server/udev"
+[   197.837] (II) event7  - MOSART Semi. 2.4G Keyboard Mouse: is tagged by udev as: Keyboard
+[   197.837] (II) event7  - MOSART Semi. 2.4G Keyboard Mouse: device is a keyboard
+[   197.837] (II) event7  - MOSART Semi. 2.4G Keyboard Mouse: device removed
+[   197.837] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-10/1-10.4/1-10.4:1.0/0003:062A:5918.0003/input/input10/event7"
+[   197.837] (II) XINPUT: Adding extended input device "MOSART Semi. 2.4G Keyboard Mouse" (type: KEYBOARD, id 9)
+[   197.838] (II) event7  - MOSART Semi. 2.4G Keyboard Mouse: is tagged by udev as: Keyboard
+[   197.838] (II) event7  - MOSART Semi. 2.4G Keyboard Mouse: device is a keyboard
+[   197.839] (II) config/udev: Adding input device MOSART Semi. 2.4G Keyboard Mouse (/dev/input/event8)
+[   197.839] (**) MOSART Semi. 2.4G Keyboard Mouse: Applying InputClass "libinput pointer catchall"
+[   197.839] (II) Using input driver 'libinput' for 'MOSART Semi. 2.4G Keyboard Mouse'
+[   197.839] (II) systemd-logind: got fd for /dev/input/event8 13:72 fd 38 paused 0
+[   197.839] (**) MOSART Semi. 2.4G Keyboard Mouse: always reports core events
+[   197.839] (**) Option "Device" "/dev/input/event8"
+[   197.839] (**) Option "_source" "server/udev"
+[   197.840] (II) event8  - MOSART Semi. 2.4G Keyboard Mouse: is tagged by udev as: Mouse
+[   197.840] (II) event8  - MOSART Semi. 2.4G Keyboard Mouse: device is a pointer
+[   197.840] (II) event8  - MOSART Semi. 2.4G Keyboard Mouse: device removed
+[   197.840] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-10/1-10.4/1-10.4:1.1/0003:062A:5918.0004/input/input11/event8"
+[   197.840] (II) XINPUT: Adding extended input device "MOSART Semi. 2.4G Keyboard Mouse" (type: MOUSE, id 10)
+[   197.840] (**) Option "AccelerationScheme" "none"
+[   197.840] (**) MOSART Semi. 2.4G Keyboard Mouse: (accel) selected scheme none/0
+[   197.840] (**) MOSART Semi. 2.4G Keyboard Mouse: (accel) acceleration factor: 2.000
+[   197.840] (**) MOSART Semi. 2.4G Keyboard Mouse: (accel) acceleration threshold: 4
+[   197.841] (II) event8  - MOSART Semi. 2.4G Keyboard Mouse: is tagged by udev as: Mouse
+[   197.841] (II) event8  - MOSART Semi. 2.4G Keyboard Mouse: device is a pointer
+[   197.842] (II) config/udev: Adding input device MOSART Semi. 2.4G Keyboard Mouse (/dev/input/mouse0)
+[   197.842] (II) No input driver specified, ignoring this device.
+[   197.842] (II) This device may have been added with another device file.
+[   197.842] (II) config/udev: Adding input device MOSART Semi. 2.4G Keyboard Mouse Consumer Control (/dev/input/event9)
+[   197.842] (**) MOSART Semi. 2.4G Keyboard Mouse Consumer Control: Applying InputClass "libinput keyboard catchall"
+[   197.842] (II) Using input driver 'libinput' for 'MOSART Semi. 2.4G Keyboard Mouse Consumer Control'
+[   197.843] (II) systemd-logind: got fd for /dev/input/event9 13:73 fd 39 paused 0
+[   197.843] (**) MOSART Semi. 2.4G Keyboard Mouse Consumer Control: always reports core events
+[   197.843] (**) Option "Device" "/dev/input/event9"
+[   197.843] (**) Option "_source" "server/udev"
+[   197.844] (II) event9  - MOSART Semi. 2.4G Keyboard Mouse Consumer Control: is tagged by udev as: Keyboard
+[   197.844] (II) event9  - MOSART Semi. 2.4G Keyboard Mouse Consumer Control: device is a keyboard
+[   197.844] (II) event9  - MOSART Semi. 2.4G Keyboard Mouse Consumer Control: device removed
+[   197.844] (II) libinput: MOSART Semi. 2.4G Keyboard Mouse Consumer Control: needs a virtual subdevice
+[   197.844] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-10/1-10.4/1-10.4:1.1/0003:062A:5918.0004/input/input12/event9"
+[   197.844] (II) XINPUT: Adding extended input device "MOSART Semi. 2.4G Keyboard Mouse Consumer Control" (type: MOUSE, id 11)
+[   197.844] (**) Option "AccelerationScheme" "none"
+[   197.844] (**) MOSART Semi. 2.4G Keyboard Mouse Consumer Control: (accel) selected scheme none/0
+[   197.844] (**) MOSART Semi. 2.4G Keyboard Mouse Consumer Control: (accel) acceleration factor: 2.000
+[   197.844] (**) MOSART Semi. 2.4G Keyboard Mouse Consumer Control: (accel) acceleration threshold: 4
+[   197.845] (II) event9  - MOSART Semi. 2.4G Keyboard Mouse Consumer Control: is tagged by udev as: Keyboard
+[   197.845] (II) event9  - MOSART Semi. 2.4G Keyboard Mouse Consumer Control: device is a keyboard
+[   197.846] (II) config/udev: Adding input device MOSART Semi. 2.4G Keyboard Mouse System Control (/dev/input/event10)
+[   197.846] (**) MOSART Semi. 2.4G Keyboard Mouse System Control: Applying InputClass "libinput keyboard catchall"
+[   197.846] (II) Using input driver 'libinput' for 'MOSART Semi. 2.4G Keyboard Mouse System Control'
+[   197.846] (II) systemd-logind: got fd for /dev/input/event10 13:74 fd 40 paused 0
+[   197.846] (**) MOSART Semi. 2.4G Keyboard Mouse System Control: always reports core events
+[   197.846] (**) Option "Device" "/dev/input/event10"
+[   197.846] (**) Option "_source" "server/udev"
+[   197.847] (II) event10 - MOSART Semi. 2.4G Keyboard Mouse System Control: is tagged by udev as: Keyboard
+[   197.847] (II) event10 - MOSART Semi. 2.4G Keyboard Mouse System Control: device is a keyboard
+[   197.847] (II) event10 - MOSART Semi. 2.4G Keyboard Mouse System Control: device removed
+[   197.847] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-10/1-10.4/1-10.4:1.1/0003:062A:5918.0004/input/input13/event10"
+[   197.847] (II) XINPUT: Adding extended input device "MOSART Semi. 2.4G Keyboard Mouse System Control" (type: KEYBOARD, id 12)
+[   197.848] (II) event10 - MOSART Semi. 2.4G Keyboard Mouse System Control: is tagged by udev as: Keyboard
+[   197.848] (II) event10 - MOSART Semi. 2.4G Keyboard Mouse System Control: device is a keyboard
+[   197.849] (II) config/udev: Adding input device MOSART Semi. 2.4G Keyboard Mouse (/dev/input/event11)
+[   197.849] (II) No input driver specified, ignoring this device.
+[   197.849] (II) This device may have been added with another device file.
+[   197.849] (II) config/udev: Adding input device SINO WEALTH USB KEYBOARD (/dev/input/event3)
+[   197.849] (**) SINO WEALTH USB KEYBOARD: Applying InputClass "libinput keyboard catchall"
+[   197.849] (II) Using input driver 'libinput' for 'SINO WEALTH USB KEYBOARD'
+[   197.850] (II) systemd-logind: got fd for /dev/input/event3 13:67 fd 41 paused 0
+[   197.850] (**) SINO WEALTH USB KEYBOARD: always reports core events
+[   197.850] (**) Option "Device" "/dev/input/event3"
+[   197.850] (**) Option "_source" "server/udev"
+[   197.851] (II) event3  - SINO WEALTH USB KEYBOARD: is tagged by udev as: Keyboard
+[   197.851] (II) event3  - SINO WEALTH USB KEYBOARD: device is a keyboard
+[   197.851] (II) event3  - SINO WEALTH USB KEYBOARD: device removed
+[   197.851] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.0/0003:258A:1006.0001/input/input5/event3"
+[   197.851] (II) XINPUT: Adding extended input device "SINO WEALTH USB KEYBOARD" (type: KEYBOARD, id 13)
+[   197.852] (II) event3  - SINO WEALTH USB KEYBOARD: is tagged by udev as: Keyboard
+[   197.852] (II) event3  - SINO WEALTH USB KEYBOARD: device is a keyboard
+[   197.852] (II) config/udev: Adding input device SINO WEALTH USB KEYBOARD System Control (/dev/input/event4)
+[   197.852] (**) SINO WEALTH USB KEYBOARD System Control: Applying InputClass "libinput keyboard catchall"
+[   197.852] (II) Using input driver 'libinput' for 'SINO WEALTH USB KEYBOARD System Control'
+[   197.853] (II) systemd-logind: got fd for /dev/input/event4 13:68 fd 42 paused 0
+[   197.853] (**) SINO WEALTH USB KEYBOARD System Control: always reports core events
+[   197.853] (**) Option "Device" "/dev/input/event4"
+[   197.853] (**) Option "_source" "server/udev"
+[   197.854] (II) event4  - SINO WEALTH USB KEYBOARD System Control: is tagged by udev as: Keyboard
+[   197.854] (II) event4  - SINO WEALTH USB KEYBOARD System Control: device is a keyboard
+[   197.854] (II) event4  - SINO WEALTH USB KEYBOARD System Control: device removed
+[   197.854] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.1/0003:258A:1006.0002/input/input6/event4"
+[   197.854] (II) XINPUT: Adding extended input device "SINO WEALTH USB KEYBOARD System Control" (type: KEYBOARD, id 14)
+[   197.855] (II) event4  - SINO WEALTH USB KEYBOARD System Control: is tagged by udev as: Keyboard
+[   197.855] (II) event4  - SINO WEALTH USB KEYBOARD System Control: device is a keyboard
+[   197.855] (II) config/udev: Adding input device SINO WEALTH USB KEYBOARD Consumer Control (/dev/input/event5)
+[   197.855] (**) SINO WEALTH USB KEYBOARD Consumer Control: Applying InputClass "libinput keyboard catchall"
+[   197.855] (II) Using input driver 'libinput' for 'SINO WEALTH USB KEYBOARD Consumer Control'
+[   197.856] (II) systemd-logind: got fd for /dev/input/event5 13:69 fd 43 paused 0
+[   197.856] (**) SINO WEALTH USB KEYBOARD Consumer Control: always reports core events
+[   197.856] (**) Option "Device" "/dev/input/event5"
+[   197.856] (**) Option "_source" "server/udev"
+[   197.857] (II) event5  - SINO WEALTH USB KEYBOARD Consumer Control: is tagged by udev as: Keyboard
+[   197.857] (II) event5  - SINO WEALTH USB KEYBOARD Consumer Control: device is a keyboard
+[   197.857] (II) event5  - SINO WEALTH USB KEYBOARD Consumer Control: device removed
+[   197.857] (II) libinput: SINO WEALTH USB KEYBOARD Consumer Control: needs a virtual subdevice
+[   197.857] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.1/0003:258A:1006.0002/input/input7/event5"
+[   197.857] (II) XINPUT: Adding extended input device "SINO WEALTH USB KEYBOARD Consumer Control" (type: MOUSE, id 15)
+[   197.857] (**) Option "AccelerationScheme" "none"
+[   197.857] (**) SINO WEALTH USB KEYBOARD Consumer Control: (accel) selected scheme none/0
+[   197.857] (**) SINO WEALTH USB KEYBOARD Consumer Control: (accel) acceleration factor: 2.000
+[   197.857] (**) SINO WEALTH USB KEYBOARD Consumer Control: (accel) acceleration threshold: 4
+[   197.858] (II) event5  - SINO WEALTH USB KEYBOARD Consumer Control: is tagged by udev as: Keyboard
+[   197.858] (II) event5  - SINO WEALTH USB KEYBOARD Consumer Control: device is a keyboard
+[   197.858] (II) config/udev: Adding input device SINO WEALTH USB KEYBOARD Keyboard (/dev/input/event6)
+[   197.858] (**) SINO WEALTH USB KEYBOARD Keyboard: Applying InputClass "libinput keyboard catchall"
+[   197.858] (II) Using input driver 'libinput' for 'SINO WEALTH USB KEYBOARD Keyboard'
+[   197.859] (II) systemd-logind: got fd for /dev/input/event6 13:70 fd 44 paused 0
+[   197.859] (**) SINO WEALTH USB KEYBOARD Keyboard: always reports core events
+[   197.859] (**) Option "Device" "/dev/input/event6"
+[   197.859] (**) Option "_source" "server/udev"
+[   197.860] (II) event6  - SINO WEALTH USB KEYBOARD Keyboard: is tagged by udev as: Keyboard
+[   197.860] (II) event6  - SINO WEALTH USB KEYBOARD Keyboard: device is a keyboard
+[   197.860] (II) event6  - SINO WEALTH USB KEYBOARD Keyboard: device removed
+[   197.860] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.1/0003:258A:1006.0002/input/input9/event6"
+[   197.860] (II) XINPUT: Adding extended input device "SINO WEALTH USB KEYBOARD Keyboard" (type: KEYBOARD, id 16)
+[   197.861] (II) event6  - SINO WEALTH USB KEYBOARD Keyboard: is tagged by udev as: Keyboard
+[   197.861] (II) event6  - SINO WEALTH USB KEYBOARD Keyboard: device is a keyboard
+[   197.861] (II) config/udev: Adding input device HDA Intel PCH Front Mic (/dev/input/event20)
+[   197.861] (II) No input driver specified, ignoring this device.
+[   197.861] (II) This device may have been added with another device file.
+[   197.861] (II) config/udev: Adding input device HDA Intel PCH Rear Mic (/dev/input/event21)
+[   197.861] (II) No input driver specified, ignoring this device.
+[   197.861] (II) This device may have been added with another device file.
+[   197.861] (II) config/udev: Adding input device HDA Intel PCH Line (/dev/input/event22)
+[   197.862] (II) No input driver specified, ignoring this device.
+[   197.862] (II) This device may have been added with another device file.
+[   197.862] (II) config/udev: Adding input device HDA Intel PCH Line Out Front (/dev/input/event23)
+[   197.862] (II) No input driver specified, ignoring this device.
+[   197.862] (II) This device may have been added with another device file.
+[   197.862] (II) config/udev: Adding input device HDA Intel PCH Line Out Surround (/dev/input/event24)
+[   197.862] (II) No input driver specified, ignoring this device.
+[   197.862] (II) This device may have been added with another device file.
+[   197.862] (II) config/udev: Adding input device HDA Intel PCH Line Out CLFE (/dev/input/event25)
+[   197.862] (II) No input driver specified, ignoring this device.
+[   197.862] (II) This device may have been added with another device file.
+[   197.862] (II) config/udev: Adding input device HDA Intel PCH Front Headphone (/dev/input/event26)
+[   197.862] (II) No input driver specified, ignoring this device.
+[   197.862] (II) This device may have been added with another device file.
+[   197.862] (II) config/udev: Adding input device PC Speaker (/dev/input/event12)
+[   197.863] (II) No input driver specified, ignoring this device.
+[   197.863] (II) This device may have been added with another device file.
+[   197.865] (**) MOSART Semi. 2.4G Keyboard Mouse Consumer Control: Applying InputClass "libinput keyboard catchall"
+[   197.865] (II) Using input driver 'libinput' for 'MOSART Semi. 2.4G Keyboard Mouse Consumer Control'
+[   197.865] (II) systemd-logind: returning pre-existing fd for /dev/input/event9 13:73
+[   197.865] (**) MOSART Semi. 2.4G Keyboard Mouse Consumer Control: always reports core events
+[   197.865] (**) Option "Device" "/dev/input/event9"
+[   197.865] (**) Option "_source" "_driver/libinput"
+[   197.865] (II) libinput: MOSART Semi. 2.4G Keyboard Mouse Consumer Control: is a virtual subdevice
+[   197.865] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-10/1-10.4/1-10.4:1.1/0003:062A:5918.0004/input/input12/event9"
+[   197.865] (II) XINPUT: Adding extended input device "MOSART Semi. 2.4G Keyboard Mouse Consumer Control" (type: KEYBOARD, id 17)
+[   197.865] (**) SINO WEALTH USB KEYBOARD Consumer Control: Applying InputClass "libinput keyboard catchall"
+[   197.865] (II) Using input driver 'libinput' for 'SINO WEALTH USB KEYBOARD Consumer Control'
+[   197.865] (II) systemd-logind: returning pre-existing fd for /dev/input/event5 13:69
+[   197.865] (**) SINO WEALTH USB KEYBOARD Consumer Control: always reports core events
+[   197.865] (**) Option "Device" "/dev/input/event5"
+[   197.865] (**) Option "_source" "_driver/libinput"
+[   197.865] (II) libinput: SINO WEALTH USB KEYBOARD Consumer Control: is a virtual subdevice
+[   197.865] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.1/0003:258A:1006.0002/input/input7/event5"
+[   197.865] (II) XINPUT: Adding extended input device "SINO WEALTH USB KEYBOARD Consumer Control" (type: KEYBOARD, id 18)
+[   197.865] (--) NVIDIA(GPU-0): Ancor Communications Inc VG248 (DFP-2): connected
+[   197.865] (--) NVIDIA(GPU-0): Ancor Communications Inc VG248 (DFP-2): Internal DisplayPort
+[   197.865] (--) NVIDIA(GPU-0): Ancor Communications Inc VG248 (DFP-2): 1440.0 MHz maximum pixel clock
+[   197.865] (--) NVIDIA(GPU-0): Ancor Communications Inc VG248 (DFP-2): supports NVIDIA 3D Vision stereo.
+[   197.865] (--) NVIDIA(GPU-0): 
+[   198.094] (**) Option "fd" "32"
+[   198.094] (II) event2  - Power Button: device removed
+[   198.094] (**) Option "fd" "35"
+[   198.094] (II) event1  - Power Button: device removed
+[   198.094] (**) Option "fd" "36"
+[   198.094] (II) event0  - Sleep Button: device removed
+[   198.094] (**) Option "fd" "37"
+[   198.094] (II) event7  - MOSART Semi. 2.4G Keyboard Mouse: device removed
+[   198.094] (**) Option "fd" "38"
+[   198.094] (II) event8  - MOSART Semi. 2.4G Keyboard Mouse: device removed
+[   198.095] (**) Option "fd" "39"
+[   198.095] (**) Option "fd" "40"
+[   198.095] (II) event10 - MOSART Semi. 2.4G Keyboard Mouse System Control: device removed
+[   198.095] (**) Option "fd" "41"
+[   198.095] (II) event3  - SINO WEALTH USB KEYBOARD: device removed
+[   198.095] (**) Option "fd" "42"
+[   198.095] (II) event4  - SINO WEALTH USB KEYBOARD System Control: device removed
+[   198.095] (**) Option "fd" "43"
+[   198.095] (**) Option "fd" "44"
+[   198.095] (II) event6  - SINO WEALTH USB KEYBOARD Keyboard: device removed
+[   198.095] (**) Option "fd" "39"
+[   198.095] (II) event9  - MOSART Semi. 2.4G Keyboard Mouse Consumer Control: device removed
+[   198.095] (**) Option "fd" "43"
+[   198.095] (II) event5  - SINO WEALTH USB KEYBOARD Consumer Control: device removed
+[   198.126] (II) UnloadModule: "libinput"
+[   198.126] (II) systemd-logind: not releasing fd for 13:69, still in use
+[   198.126] (II) UnloadModule: "libinput"
+[   198.126] (II) systemd-logind: not releasing fd for 13:73, still in use
+[   198.126] (II) UnloadModule: "libinput"
+[   198.126] (II) systemd-logind: releasing fd for 13:70
+[   198.175] (II) UnloadModule: "libinput"
+[   198.175] (II) systemd-logind: releasing fd for 13:69
+[   198.201] (II) UnloadModule: "libinput"
+[   198.202] (II) systemd-logind: releasing fd for 13:68
+[   198.228] (II) UnloadModule: "libinput"
+[   198.228] (II) systemd-logind: releasing fd for 13:67
+[   198.255] (II) UnloadModule: "libinput"
+[   198.255] (II) systemd-logind: releasing fd for 13:74
+[   198.281] (II) UnloadModule: "libinput"
+[   198.282] (II) systemd-logind: releasing fd for 13:73
+[   198.308] (II) UnloadModule: "libinput"
+[   198.308] (II) systemd-logind: releasing fd for 13:72
+[   198.375] (II) UnloadModule: "libinput"
+[   198.375] (II) systemd-logind: releasing fd for 13:71
+[   198.402] (II) UnloadModule: "libinput"
+[   198.402] (II) systemd-logind: releasing fd for 13:64
+[   198.418] (II) UnloadModule: "libinput"
+[   198.418] (II) systemd-logind: releasing fd for 13:65
+[   198.443] (II) UnloadModule: "libinput"
+[   198.444] (II) systemd-logind: releasing fd for 13:66
+[   198.561] (II) NVIDIA(GPU-0): Deleting GPU-0
+[   198.580] (II) Server terminated successfully (0). Closing log file.
